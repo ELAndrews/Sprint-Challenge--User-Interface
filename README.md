@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the manner in which to provide HTML documents with meaningful tags. When typing an HTML document, one must consider accessibility for other developers. Collaborative work can include many developers, by using semantic HTML all parties are able to navigate the document. Examples of Semantic HTML, including: <header> <nav> <article> <footer>
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+When tags are styled as `display: inline-block`, all the tags will sit next to each other; whereas, `display: block` are presented on separate lines. 
 
 3. What are the 4 areas of the box model?
 
+Starting from the inside out:
+	-Content – the direct area the content takes up
+	-Padding – this can be seen as similar to a matt board in picture frames – a blank frame
+	-Border- this marks the very edge of the element
+	-Margin – this is easily confused with padding, but it is the area around the element. Ensuring no other elements come within that area.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+All `align` based stylings are worked alone the vertical axis, or y-axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is an open source distributed, non-linear/decentralised, control system. It enables teams of developers to work in parallel and collaboratively. Git is essential for coordinating work (through push, pull and merge commands), keeps a history of changes (through commits, add, and log commands) and is also important to support against data lose. Each developer can have their own locally cloned copy of the project which is then merged in a central online repository (such as GitHub).
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
