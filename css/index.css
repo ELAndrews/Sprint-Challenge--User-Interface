@@ -130,7 +130,6 @@ nav a{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -208,4 +207,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+	header{
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    }
+
+    .header-logo {
+        margin: 4px auto;
+    }
+
+    .top-image {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    
+    .top-content {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .text-container {
+        width: 80vw;
+        margin-left: 10vw;
+        padding: 20px;
+        }
+
+    .boxes {
+        width: 80vw;
+        margin-left:5vw
+    }
+
+    .middle-content {
+        width: 80vw;
+        margin-left: 5vw;
+    }
+
+    .middle-content .boxes .box {
+        width: 100px;
+        height: 100px;
+        margin: 20px 2.5%;
+    }
+
+    .bottom-content {
+        width: 90vw;
+        margin-left: 5vw;
+		flex-direction: column;
+        justify-content: center;
+    }
 }

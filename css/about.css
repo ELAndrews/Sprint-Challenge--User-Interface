@@ -46,3 +46,37 @@
     padding-top:40px;
 }
 
+@media (max-width: 600px) {
+    .container-about-page {
+        width: 600px;
+        margin: 0 auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .about-top-content {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .about-main-content {
+        width: 100vw;
+		display: flex;
+		flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-main-top .about-main-bottom {
+        width: 90vw;
+    }
+
+    .about-main-boxes {
+        width: 90vw;
+        border-bottom: 1px dashed black;
+        margin: 20px auto;
+    }
+
+    .about-bottom-content {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+}
