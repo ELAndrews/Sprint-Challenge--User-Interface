@@ -6,9 +6,9 @@
     padding: 5px 0px 0px 0px;
 }
 
-.about-top-content .about-bottom-content {
+.about-top-content {
     padding: 20px;
-    margin: 20px 0px;
+    margin: 10px 0px;
     border-bottom: 1px dashed black;
 }
 
@@ -22,10 +22,13 @@
 }
 
 .about-main-boxes {
-    width: calc(50% -40px);
-    padding: 10px;
+    width: 90%;
     border-bottom: 1px dashed black;
     margin-top: 20px;
+}
+
+.about-main-boxes img {
+    width: 100%;
 }
 
 .about-main-boxes h2 {
@@ -34,7 +37,7 @@
 
 .about-box-btn {
     border: 2px solid black;
-    padding: 4px 20px;
+    padding: 6px 20px;
     border-radius: 8px;
     margin: 15px;
 }
