@@ -233,10 +233,12 @@ footer nav a {
     }
     
     .top-content {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
         width: 90vw;
         margin-left: 5vw;
-		flex-direction: column;
-        justify-content: center;
     }
 
     .text-container {
@@ -246,8 +248,13 @@ footer nav a {
         }
 
     .boxes {
-        width: 90vw;
+        width: 80vw;
         margin-left:5vw
+    }
+
+    .middle-content {
+        width: 80vw;
+        margin-left: 5vw;
     }
 
     .middle-content .boxes .box {
