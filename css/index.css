@@ -233,20 +233,34 @@ footer nav a {
     }
     
     .top-content {
-        display: flex;
         width: 90vw;
-        flex-direction: column;
+        margin-left: 5vw;
+		flex-direction: column;
+        justify-content: center;
     }
 
     .text-container {
-        width: 90vw;
-        margin: 0px auto;
-    }
+        width: 80vw;
+        margin-left: 10vw;
+        padding: 20px;
+        }
 
     .boxes {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+        width: 90vw;
+        margin-left:5vw
+    }
+
+    .middle-content .boxes .box {
+        width: 100px;
+        height: 100px;
+        margin: 20px 2.5%;
+    }
+
+    .bottom-content {
+        width: 90vw;
+        margin-left: 5vw;
+		flex-direction: column;
+        justify-content: center;
     }
 
 }
