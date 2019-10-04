@@ -211,7 +211,7 @@ footer nav a {
 
 @media (max-width: 600px) {
     .container {
-        width: 500px;
+        width: 600px;
         margin: 0 auto;
         padding: 5px 0px 0px 0px;
     }
@@ -229,7 +229,24 @@ footer nav a {
 
     .top-image {
         width: 90vw;
-        margin: 0px auto 20px auto;
+        margin-left: 5vw;
     }
     
+    .top-content {
+        display: flex;
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 90vw;
+        margin: 0px auto;
+    }
+
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
 }
